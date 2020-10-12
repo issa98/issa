@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             Log.i(ACTIVITY_NAME,"Returned to MainActivity.onActivityResult");
         }
 
-        
+
     }
 
     public void onResume() {
@@ -76,6 +76,11 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
 
         Log.i(ACTIVITY_NAME, "In onDestroy()");
+    }
+
+
+    public void startChat(View view) {
+        Log.i(ACTIVITY_NAME, "User clicked Start Chat");
     }
 
 

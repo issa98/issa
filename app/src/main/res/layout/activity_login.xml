@@ -30,7 +30,8 @@
             android:hint="@string/login_name"
             android:inputType="textEmailAddress"
             android:textSize="15sp"
-            android:autofillHints="" tools:targetApi="o"/>
+            android:autofillHints=""
+            tools:targetApi="o"/>
 
     <TextView
         android:id="@+id/password"
@@ -64,7 +65,6 @@
         android:layout_marginTop="15dp"
         android:layout_marginBottom="5dp"
         android:layout_weight="1"
-        android:onClick="loginFunction"
         android:text="@string/login_btn" />
 
 
